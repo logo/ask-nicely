@@ -1,0 +1,21 @@
+
+/**
+ * Ask Nicely logo.
+ */
+
+.logo[data-logo="Ask Nicely"] {
+  width: 0;
+}
+
+.logo[data-logo="Ask Nicely"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Ask Nicely"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Ask Nicely"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
